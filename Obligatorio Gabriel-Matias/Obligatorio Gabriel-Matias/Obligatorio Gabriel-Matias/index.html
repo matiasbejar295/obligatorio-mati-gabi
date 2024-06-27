@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Pagina de videojuegos</title>
+            <link rel="stylesheet" href="styles/index.css">
+            <script src="scripts/index.js"></script>
+        </head>
+        <body id="hola">
+            <header>
+                <img width="96px" src="images/logo.jpeg" alt="logo">
+                <h1>LoJueguito</h1>
+                <div class="buscador">
+                    <form method="get" id="search-form">
+                        <input type="text" placeholder="Buscar..." name="q">
+                    </form>
+                </div>
+                <a id="pagina-administrador" href="pages/pagina.html">Administrador</a>
+            </header>
+            <div class="Casilla-de-juego">
+                <h2 id="Carrito-compras">Carrito de Compras</h2>
+                <p >Total de Unidades: 
+                    <span id="totalUnidades">0</span>
+                  </p>
+                  <p> Precio Total: 
+                    <span class="badge rounded-pill text-bg-primary" id="totalPrecio">0</span>
+                    <button type="button"  id="finalizar-compra">Finalizar Compra</button>
+                  </p>
+                <div class="juegos" id="grilla-juegos">
+            <div id ="casilla-de-juego" class="casillas-de-juegos">
+                        <h3>Forline</h3>
+                        <img src="images/Forline.jpeg" alt="Forline">
+                        <h2 > Precio $200 </h2>
+                        <p>Genero</p>
+                        <button id = "boton-comprar" > Comprar Juego </button> 
+                    </div>
+             <div id ="casilla-de-juego" class="casillas-de-juegos" >
+                        <h3>Legend of Celery</h3>
+                        <img src="images/Legend of Celery.jpeg" alt="Legend of Celery">
+                        <h2 > Precio $200 </h2>
+                        <p>Descripción del juego 2</p>
+                        <button id = "boton-comprar" > Comprar Juego </button>
+            </div>
+            <div id ="casilla-de-juego" class="casillas-de-juegos">
+                        <h3>Hate of Speed</h3>
+                        <img src="images/Hate of Speed.jpeg" alt="Hate of Speed">
+                        <h2 > Precio $200 </h2>
+                        <p>Descripción del juego 3</p>
+                        <button id = "boton-comprar" > Comprar Juego</button>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                &copy; 2024  LoJueguito. Todos los derechos reservados. SA “Pagina de videojuegos”
+        </body>
+        </html>
